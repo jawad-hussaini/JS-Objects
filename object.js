@@ -31,3 +31,22 @@ x.push(4);
 console.log(x);
 // x = 55;
 // console.log(x)
+
+
+let obj = {
+    name: "jawad",
+    value: "1st",
+}
+let newObj = obj.map((x)=>{
+    return x + "checking array methods"
+})
+console.log(newObj);
+
+let objMap = {
+    key: "cahbi",
+    value: "value",
+    name: "Malik"
+}
+let mapObj = objMap.filter(m => {
+    return m + "checking with filter method"
+})
